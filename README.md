@@ -1,1 +1,1 @@
-HV1- Verilog/SystemVerilog для синтезу
+HW1- Verilog/SystemVerilog для синтезу
