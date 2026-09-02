@@ -1,8 +1,0 @@
-Time resolution is 1 ps
-PASS: LOAD, count = 10
-PASS: COUNT UP to 13, count = 13
-PASS: COUNT UP overflow, count = 0
-PASS: HOLD, count = 0
-PASS: COUNT DOWN overflow, count = 15
-PASS: LOAD priority, count = 5
-$finish called at time : 126 ns : File "C:/FPGA-learning/HW2/HW2_counter_tb/HW2_counter_tb.srcs/sim_1/new/tb_counter.v" Line 138
