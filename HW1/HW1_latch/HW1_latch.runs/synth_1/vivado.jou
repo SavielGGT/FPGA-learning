@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Tue Sep  1 20:45:00 2026
+# Process ID         : 19700
+# Current directory  : C:/FPGA-learning/HW1/HW1_latch/HW1_latch.runs/synth_1
+# Command line       : vivado.exe -log latch_mux.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source latch_mux.tcl
+# Log file           : C:/FPGA-learning/HW1/HW1_latch/HW1_latch.runs/synth_1/latch_mux.vds
+# Journal file       : C:/FPGA-learning/HW1/HW1_latch/HW1_latch.runs/synth_1\vivado.jou
+# Running On         : Saviel
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 9 275HX
+# CPU Frequency      : 3072 MHz
+# CPU Physical cores : 24
+# CPU Logical cores  : 24
+# Host memory        : 33752 MB
+# Swap memory        : 4160 MB
+# Total Virtual      : 37913 MB
+# Available Virtual  : 20446 MB
+#-----------------------------------------------------------
+source latch_mux.tcl -notrace
