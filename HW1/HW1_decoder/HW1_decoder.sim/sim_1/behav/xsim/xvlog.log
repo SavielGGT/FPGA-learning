@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/FPGA-learning/HW1/HW1_decoder/HW1_decoder.srcs/sources_1/new/decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/FPGA-learning/HW1/HW1_decoder/HW1_decoder.srcs/sources_1/new/decoder_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/FPGA-learning/HW1/HW1_decoder/HW1_decoder.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
