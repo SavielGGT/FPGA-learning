@@ -1,0 +1,9 @@
+Time resolution is 1 ps
+PASS: LOCKED -> WAIT_D2
+PASS: WAIT_D2 -> WAIT_D3
+PASS: WAIT_D3 -> UNLOCKED
+PASS: unlocked_led = 1
+PASS: first digit accepted
+PASS: wrong digit -> LOCKED
+TEST FINISHED
+$finish called at time : 56 ns : File "C:/FPGA-learning/HW3/lock_controller/lock_controller.srcs/sim_1/new/tb_lock_controller.sv" Line 117
