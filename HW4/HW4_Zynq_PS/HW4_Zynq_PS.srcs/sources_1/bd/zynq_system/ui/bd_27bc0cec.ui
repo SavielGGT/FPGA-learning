@@ -1,0 +1,35 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.5",
+   "Default View_TopLeft":"5,-535",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:24.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 1590 -y -360 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1590 -y -330 -defaultsOSRD
+preplace port leds_4bits -pg 1 -lvl 5 -x 1590 -y -390 -defaultsOSRD
+preplace port btns_4bits -pg 1 -lvl 5 -x 1590 -y -300 -defaultsOSRD
+preplace port sws_4bits -pg 1 -lvl 5 -x 1590 -y -270 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 680 -y -300 -defaultsOSRD
+preplace inst axi_gpio_led -pg 1 -lvl 1 -x 350 -y -250 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 4 -x 1400 -y -250 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 3 -x 1080 -y -60 -defaultsOSRD
+preplace inst axi_gpio_inputs -pg 1 -lvl 1 -x 350 -y -30 -defaultsOSRD
+preplace inst axi_timer_0 -pg 1 -lvl 2 -x 680 -y 100 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 220 -110 470 -30 890 -250 NJ
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 2 1 880 -250n
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 0 4 230 50 480J -10 870J 40 1270
+preplace netloc processing_system7_0_DDR 1 2 3 NJ -350 N -350 1570
+preplace netloc processing_system7_0_FIXED_IO 1 2 3 NJ -330 N -330 N
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 2 NJ -290 1270J
+preplace netloc axi_smc_M00_AXI 1 0 5 240 -170 NJ -170 NJ -170 NJ -170 1540
+preplace netloc axi_gpio_led_GPIO 1 1 4 460J -190 870J -370 NJ -370 1570
+preplace netloc axi_smc_M01_AXI 1 0 5 240 -160 NJ -160 NJ -160 1250J -150 1560
+preplace netloc axi_gpio_inputs_GPIO 1 1 4 NJ -40 900J -360 NJ -360 1560
+preplace netloc axi_gpio_inputs_GPIO2 1 1 4 460 -150 910J -340 NJ -340 1550J
+preplace netloc axi_smc_M02_AXI 1 1 4 490 -180 NJ -180 1260J -160 1530
+levelinfo -pg 1 0 350 680 1080 1400 1590
+pagesize -pg 1 -db -bbox -sgen 0 -410 1710 210
+"
+}
+
