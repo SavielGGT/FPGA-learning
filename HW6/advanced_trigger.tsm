@@ -1,0 +1,37 @@
+##################################################
+#
+# For info on creating trigger state machines:
+#   1) In the main Vivado menu bar, select
+#      Window > Language Templates
+#   2) In the Templates window, select
+#      Debug > Trigger State Machine
+#   3) Refer to the entry 'Info' for an overview
+#      of the trigger state machine language.
+#
+# More information can be found in this document:
+#
+#   Vivado Design Suite User Guide: Programming
+#   and Debugging (UG908)
+#
+##################################################
+# Wait until the first correct digit was accepted
+state wait_5:
+    if (lock_inst/state == 2'u1) then
+        goto wait_3;
+    else
+        goto wait_5;
+    endif
+
+state wait_3:
+    if (lock_inst/next_state == 2'u2) then
+        goto wait_7;
+    else
+        goto wait_3;
+    endif
+
+state wait_7:
+    if (lock_inst/unlocked_led == 1'b1) then
+        trigger;
+    else
+        goto wait_7;
+    endif
